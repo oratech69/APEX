@@ -1,28 +1,16 @@
- # Material-Kanban-Board
+ # Kanban-Board with Drag n Drop
 
 ![Screenshot](https://raw.githubusercontent.com/McRange/Material-Kanban-Board/master/screenshot.gif)
 
-This project is a Region Plug-in for Oracle Apex that allows easy integration of a Kanban board into your own application. Your business processes can be grouped and visualized clearly. With Drag'n Drop you can move the cards between a dynamic number of columns. Adjust the icons, colors and other attributes to your personal needs. Expand the cards with any HTML content to display more information and enable more functions. You can also use the cards without Apex. Just download all files and start index.html.
-
-The board is data driven so you don't need to worry about the UI presentation. You only have to change the JSON in "data\data.js".
-
-When you use this plugin in Apex, the complete help and some sample statements are inside of the Region Plug-in.
-If you don't to know how to install this Plug-in in Apex, please take look at the API of Oracle Apex.
+I created this Kanban Board in Oracle APEX that allows you to drag and drop cards between different system development lifecycle tasks. This is not a plugin. I used HTML5 Drag n Drop features in this project. The pictures on the cards are fetched from a database table. When you switch a card to another task, an Ajax Callback process immediately updates the backend table. Each task is provided as a link on the card that, when clicked, calls a modal page to update task details. Similarly, the plus sign that appears under each SDLC pane, lets you create a new task. 
 
 Try my demo application:
 
-https://apex.oracle.com/pls/apex/f?p=PLUGINSBYRANGE:2
+https://apex.oracle.com/pls/apex/f?p=2869
 
-Login: demo / demo
+Login: DEMO / DEMO
 
-This plugin is based on other projects:
-
-https://github.com/RonnyWeiss/Material-Dashboard-Cards-as-HTML-or-for-Apex
-by Ronny Weiß
-
-https://github.com/bevacqua/dragula
-by Nicolás Bevacqua
 
 If you like my stuff, please donate me a pizza
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/mcrange)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/oratech69)
