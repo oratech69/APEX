@@ -11,6 +11,4 @@ https://apex.oracle.com/pls/apex/f?p=2869
 Login: DEMO / DEMO
 
 
-If you like my stuff, please donate me a pizza
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/oratech69)
+oratech@cyber.net.pk
